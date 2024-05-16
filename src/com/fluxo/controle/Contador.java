@@ -26,7 +26,9 @@ public class Contador {
             throw new ParametrosInvalidosException("O primeiro parametro não pode ser maior que o segundo");
         }else{
             int subtracao = parDois - parUm;
+            
             System.out.println("Resultado da subtração: "+ subtracao);
+            
             for(int i = subtracao; i > 0; i--){
                 System.out.printf("Imprimindo número %s \n",i);
             }
