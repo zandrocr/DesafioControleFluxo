@@ -3,7 +3,7 @@ package com.fluxo.controle;
 import java.util.Scanner;
 
 public class Contador {
-	public static void main(String[] args) {
+	public static void main(String[] args) {				
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Digite o primeiro parâmetro");
